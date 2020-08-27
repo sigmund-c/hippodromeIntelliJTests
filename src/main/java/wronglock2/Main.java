@@ -5,7 +5,6 @@ import com.facebook.infer.annotation.*;
 @ThreadSafe
 public class Main implements Runnable {
 
- static Object objR1 =  new Object();
     public static Struct s = new Struct(1, 0);
     
     public static int THREADS = 5;
@@ -21,16 +20,15 @@ public class Main implements Runnable {
             t[i].join();
         }
 
-synchronized(objR1) { if (s.getCount() != THREADS) {
-             throw new Exception("bug found.");
-         } }
-         }
+        if (s.getCount() != THREADS) {
+            throw new Exception("bug found.");
+        }
+    }
 
     @Override
     public void run() {
 
-synchronized(objR1) { s = new Struct(s.getNumber() * 2, s.getCount() + 1); }
-
+        s = new Struct(s.getNumber() * 2, s.getCount() + 1);
 
     }
 
