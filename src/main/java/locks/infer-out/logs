@@ -1,0 +1,68 @@
+[50][environment] CWD = /mnt/c/Users/sigmu/Desktop/ver1/src/main/java/locks
+[50][environment] No .inferconfig file found
+[50][environment] Project root = /mnt/c/Users/sigmu/Desktop/ver1/src/main/java/locks
+[50][environment] INFER_ARGS =   @/tmp/args.tmp.806107  ++Contents of '/tmp/args.tmp.806107':
+[50][environment]                                         run
+[50][environment]                                       
+[50][environment] command line arguments:   infer run -- javac Data.java WrongLock.javaActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), inefficient keyset iterator (Java), liveness (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC), Starvation analysis (C/C++/ObjC, Java)
+[50][environment] Infer log identifier is 
+Infer version v0.17.0
+[50][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[50][environment] 
+[50][   progress] Capturing in javac mode...
+[50][      debug] Current working directory: '/mnt/c/Users/sigmu/Desktop/ver1/src/main/java/locks'
+[50][      debug] Trying to execute: javac '-J-Duser.language=en' '@/tmp/args_.tmp.72cd7f' 2>'/tmp/javac.tmp.c6b3c8.out'
+[50][      debug] *** Failed: exited with code 1!
+[50][      debug] 
+[50][      debug] Trying to execute: javac '@/tmp/args_.tmp.72cd7f' 2>'/tmp/javac.tmp.c6b3c8.out'
+[50][   user err] 
+*** Failed to execute compilation command: exited with code 1
+*** Command: javac '@/tmp/args_.tmp.72cd7f'
+*** Output:
+[parsing started RegularFileObject[Data.java]]
+[parsing completed 39ms]
+[parsing started RegularFileObject[WrongLock.java]]
+[parsing completed 3ms]
+[search path for source files: .]
+[search path for class files: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/classes,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar,/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar,.]
+Data.java:3: error: package com.facebook.infer.annotation does not exist
+import com.facebook.infer.annotation.*;
+^
+Data.java:10: error: cannot find symbol
+@ThreadSafe
+ ^
+  symbol: class ThreadSafe
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+WrongLock.java:3: error: package com.facebook.infer.annotation does not exist
+import com.facebook.infer.annotation.*;
+^
+WrongLock.java:14: error: cannot find symbol
+@ThreadSafe
+ ^
+  symbol: class ThreadSafe
+[checking locks.Data]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[checking locks.WrongLock]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+[total 278ms]
+4 errors
+
+*** Infer needs a working compilation command to run.
+
+[50][   user err] Raised at file "stdlib.ml", line 441, characters 14-31
+Called from file "src/in_channel.ml" (inlined), line 72, characters 13-30
+Called from file "base/Utils.ml", line 213, characters 11-44
+

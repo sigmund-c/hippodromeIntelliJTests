@@ -1,0 +1,5 @@
+'-verbose'
+'-g'
+'-d'
+'/mnt/c/Users/sigmu/Desktop/ver1'
+'src/test/java/RacyFalseNeg.java'

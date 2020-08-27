@@ -1,0 +1,53 @@
+#0
+src/main/java/locks/WrongLock.java:26: warning: Thread Safety Violation 2
+  Unprotected write. Non-private method `WrongLock.A()` writes to field `this.data.value` outside of synchronization.
+ Reporting because the current class is annotated `@ThreadSafe`, so we assume that this method can run in parallel with other non-private methods in the class (including itself).
+  24.   
+  25.               int x = data.value;
+  26. >             data.value++;
+  27.               //assert (data.value==x+1);
+  28.               if (data.value != (x + 1))
+
+#1
+src/main/java/locks/WrongLock.java:28: warning: Thread Safety Violation 2
+  Read/Write race. Non-private method `WrongLock.A()` reads without synchronization from `this.data.value`. Potentially races with write in method `WrongLock.B()`.
+ Reporting because the current class is annotated `@ThreadSafe`, so we assume that this method can run in parallel with other non-private methods in the class (including itself).
+  26.               data.value++;
+  27.               //assert (data.value==x+1);
+  28. >             if (data.value != (x + 1))
+  29.                   throw new RuntimeException("bug found");
+  30.   
+
+#2
+src/main/java/locks/WrongLock.java:35: warning: Thread Safety Violation 2
+  Unprotected write. Non-private method `WrongLock.B()` writes to field `this.data.value` outside of synchronization.
+ Reporting because the current class is annotated `@ThreadSafe`, so we assume that this method can run in parallel with other non-private methods in the class (including itself).
+  33.       public void B() {
+  34.   
+  35. >             data.value++;
+  36.       }
+  37.   }
+
+#3
+src/main/java/wronglock2/Main.java:23: warning: Thread Safety Violation 2
+  Read/Write race. Non-private method `Main.main(...)` reads without synchronization from `wronglock2.Main.s`. Potentially races with write in method `Main.run()`.
+ Reporting because the current class is annotated `@ThreadSafe`, so we assume that this method can run in parallel with other non-private methods in the class (including itself).
+  21.           }
+  22.   
+  23. >         if (s.getCount() != THREADS) {
+  24.               throw new Exception("bug found.");
+  25.           }
+
+#4
+src/main/java/wronglock2/Main.java:31: warning: Thread Safety Violation 2
+  Unprotected write. Non-private method `Main.run()` writes to field `wronglock2.Main.s` outside of synchronization.
+ Reporting because the current class is annotated `@ThreadSafe`, so we assume that this method can run in parallel with other non-private methods in the class (including itself).
+  29.       public void run() {
+  30.   
+  31. >         s = new Struct(s.getNumber() * 2, s.getCount() + 1);
+  32.   
+  33.       }
+
+Found 5 issues
+                            Issue Type(ISSUED_TYPE_ID): #
+  Thread Safety Violation 2(THREAD_SAFETY_VIOLATION_2): 5

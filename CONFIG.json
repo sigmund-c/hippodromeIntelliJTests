@@ -1,0 +1,8 @@
+{
+  "infer": "/mnt/c/Users/sigmu/Desktop/infer/infer/bin/infer",
+  "target_options": [ "--", "mvn", "package" ],
+  "options": [ "--racerdfix-only", "--starvation" ],
+  "json_path": "./infer-out/",
+  "prio_files": [],
+  "iterations": 1
+}

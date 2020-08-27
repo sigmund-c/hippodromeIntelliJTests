@@ -1,0 +1,138 @@
+[1160][environment] CWD = /mnt/c/Users/sigmu/Desktop/ver1
+[1160][environment] No .inferconfig file found
+[1160][environment] Project root = /mnt/c/Users/sigmu/Desktop/ver1
+[1160][environment] INFER_ARGS =   @/tmp/args.tmp.6a6c09
+[1160][environment] command line arguments:   /mnt/c/Users/sigmu/Desktop/infer/infer/bin/infer
+[1160][environment]                           --racerdfix-only --starvation --results-dir
+[1160][environment]                           ./infer-out/ -- mvn package
+[1160][environment] Available memory at startup: 12206 MB
+[1160][environment] Active checkers: starvation (C/C++/ObjC, Java), racerdfix (C/C++/ObjC, Java)
+[1160][environment] Scheduler: file
+[1160][environment] Cores used: 4
+[1160][environment] Infer version v1.0.0-4ed70b345
+[1160][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[1160][environment] 
+[1160][   progress] Capturing in maven mode...
+[1160][      debug] Running maven capture:
+[1160][      debug] mvn 'package' '-P' 'infer-capture'
+
+[1212][environment] CWD = /mnt/c/Users/sigmu/Desktop/ver1
+[1212][environment] No .inferconfig file found
+[1212][environment] Project root = /mnt/c/Users/sigmu/Desktop/ver1
+[1212][environment] INFER_ARGS =   @/tmp/args.tmp.81ddbc
+[1212][environment] command line arguments:   /mnt/c/Users/sigmu/Desktop/infer/infer/bin/infer
+[1212][environment]                           @/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler16791195681406225063arguments
+[1212][environment] Available memory at startup: 11953 MB
+[1212][environment] Active checkers: starvation (C/C++/ObjC, Java), racerdfix (C/C++/ObjC, Java)
+[1212][      debug] Current working directory: '/mnt/c/Users/sigmu/Desktop/ver1'
+[1212][      debug] Trying to execute: javac '-J-Duser.language=en' '@/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler16791195681406225063arguments' '@/mnt/c/Users/sigmu/Desktop/ver1/infer-out/tmp/javac_args.tmp.9ae18f' 2>'/mnt/c/Users/sigmu/Desktop/ver1/infer-out/tmp/javac.tmp.a9f282.out'
+[1212][      debug] *** Success. Logs:
+[1212][      debug] Translating 36 source files (38 classes)
+[1212][      debug] Tenv.store: global tenv has size 25184 bytes.
+[1212][      debug] Tenv.store: canonicalized tenv has size 8344 bytes.
+[1212][      debug] done capturing all files
+[1212][environment] Scheduler: file
+[1212][environment] Cores used: 4
+[1212][environment] [1160][environment] Parallel jobs: 4
+[1160][   progress] Found 37 source files to analyze in /mnt/c/Users/sigmu/Desktop/ver1/infer-out
+[1248][   progress] src/main/java/com/facebook/infer/annotation/PerformanceCritical.java starting
+[1250][   progress] src/main/java/locks/WrongLock.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/Functional.java starting
+[1248][   progress] src/main/java/com/facebook/infer/annotation/PerformanceCritical.java DONE
+[1248][   progress] src/main/java/com/facebook/infer/annotation/Cleanup.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/Functional.java DONE
+[1248][   progress] src/main/java/com/facebook/infer/annotation/Cleanup.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/IgnoreAllocations.java starting
+[1248][   progress] src/main/java/com/facebook/infer/annotation/SuppressNullMethodCall.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/IgnoreAllocations.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/Initializer.java starting
+[1248][   progress] src/main/java/com/facebook/infer/annotation/SuppressNullMethodCall.java DONE
+[1248][   progress] src/main/java/com/facebook/infer/annotation/ThreadConfined.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/Initializer.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressReturnOverAnnotated.java starting
+[1248][   progress] src/main/java/com/facebook/infer/annotation/ThreadConfined.java DONE
+[1248][   progress] src/main/java/com/facebook/infer/annotation/ReturnsOwnership.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressReturnOverAnnotated.java DONE
+[1248][   progress] src/main/java/com/facebook/infer/annotation/ReturnsOwnership.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressViewNullability.java starting
+[1248][   progress] src/main/java/com/facebook/infer/annotation/SuppressFieldNotNullable.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/Expensive.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressViewNullability.java DONE
+[1248][   progress] src/main/java/com/facebook/infer/annotation/SuppressFieldNotNullable.java DONE
+[1249][   progress] src/main/java/locks/ThreadSafe.java starting
+[1248][   progress] src/main/java/com/facebook/infer/annotation/SuppressNullFieldAccess.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/Expensive.java DONE
+[1249][   progress] src/main/java/locks/ThreadSafe.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/ThreadSafe.java starting
+[1248][   progress] src/main/java/com/facebook/infer/annotation/SuppressNullFieldAccess.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressFieldNotInitialized.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/ThreadSafe.java DONE
+[1248][   progress] src/main/java/locks/Data.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/NullsafeStrict.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressFieldNotInitialized.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressLint.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/NullsafeStrict.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/TrueOnNull.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressLint.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/Lockless.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/TrueOnNull.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/Present.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/Lockless.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/IntegritySource.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/Present.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/OkToExtend.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/IntegritySource.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/PrivacySource.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/OkToExtend.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/NoAllocation.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/PrivacySource.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressParameterNotNullable.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/NoAllocation.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/SynchronizedCollection.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/SuppressParameterNotNullable.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/SynchronizedCollection.java DONE
+[1249][   progress] src/main/java/com/facebook/infer/annotation/FalseOnNull.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/PropagatesNullable.java starting
+[1249][   progress] src/main/java/com/facebook/infer/annotation/FalseOnNull.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/PropagatesNullable.java DONE
+[1249][   progress] src/main/java/wronglock2/Main.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/PrivacySink.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/PrivacySink.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/Verify.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/Verify.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/Mutable.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/Mutable.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/IntegritySink.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/IntegritySink.java DONE
+[1251][   progress] src/main/java/com/facebook/infer/annotation/NonBlocking.java starting
+[1251][   progress] src/main/java/com/facebook/infer/annotation/NonBlocking.java DONE
+[1248][   progress] src/main/java/locks/Data.java DONE
+[1250][   progress] src/main/java/locks/WrongLock.java DONE
+[1249][   progress] src/main/java/wronglock2/Main.java DONE
+[1160][      debug] Analysis phase finished in 502ms
+[1160][      debug] Collected stats:
+[1160][      debug] Backend stats:
+[1160][      debug]   summary_file_try_load= 60
+[1160][      debug]   summary_read_from_disk= 3
+[1160][      debug]   summary_cache_hits= 158 (73%)
+[1160][      debug]   summary_cache_misses= 57
+[1160][      debug]   ondemand_procs_analyzed= 11
+[1160][      debug]   ondemand_local_cache_hits= 62 (71%)
+[1160][      debug]   ondemand_local_cache_misses= 25
+[1160][      debug]   proc_locker_lock_time_user= 0.00000000
+[1160][      debug]   proc_locker_lock_time_sys= 0.00000000
+[1160][      debug]   proc_locker_lock_time_wall= 0.00000000
+[1160][      debug]   proc_locker_unlock_time_user= 0.00000000
+[1160][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[1160][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[1160][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[1160][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[1160][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[1160][      debug]   restart_scheduler_total_time_user= 0.00000000
+[1160][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[1160][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[1160][      debug]   scheduler_process_analysis_time_user= 0.03641800
+[1160][      debug]   scheduler_process_analysis_time_sys= 0.00553800
+[1160][      debug]   scheduler_process_analysis_time_wall= 0.50156510
+[1160][      debug]   
+[1160][      debug] 

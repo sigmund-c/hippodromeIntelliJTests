@@ -1,0 +1,35 @@
+[66][environment] CWD = /mnt/c/Users/sigmu/Desktop/ver1
+[66][environment] No .inferconfig file found
+[66][environment] Project root = /mnt/c/Users/sigmu/Desktop/ver1
+[66][environment] INFER_ARGS =   @/tmp/args.tmp.132cf8
+[66][environment] command line arguments:   infer --racerdfix-only --starvation --results-dir
+[66][environment]                           src/main/misc/infer-out/ --results-dir
+[66][environment]                           src/main/misc/infer-out/ -- javac
+[66][environment]                           src/test/java/RacyFalseNeg.java
+[66][environment] Available memory at startup: 12236 MB
+[66][environment] Active checkers: starvation (C/C++/ObjC, Java), racerdfix (C/C++/ObjC, Java)
+[66][environment] Scheduler: file
+[66][environment] Cores used: 4
+[66][environment] Infer version v1.0.0-82237fe5f
+[66][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[66][environment] 
+[66][   progress] Capturing in javac mode...
+[66][      debug] Current working directory: '/mnt/c/Users/sigmu/Desktop/ver1'
+[66][      debug] Trying to execute: javac '-J-Duser.language=en' '@/mnt/c/Users/sigmu/Desktop/ver1/src/main/misc/infer-out/tmp/javac_args.tmp.9009af' 2>'/mnt/c/Users/sigmu/Desktop/ver1/src/main/misc/infer-out/tmp/javac.tmp.1bc25f.out'
+[66][      debug] *** Failed: exited with code 2!
+[66][      debug] 
+[66][      debug] Trying to execute: javac '@/mnt/c/Users/sigmu/Desktop/ver1/src/main/misc/infer-out/tmp/javac_args.tmp.9009af' 2>'/mnt/c/Users/sigmu/Desktop/ver1/src/main/misc/infer-out/tmp/javac.tmp.1bc25f.out'
+[66][   user err] 
+*** Failed to execute compilation command: exited with code 2
+*** Command: javac '@/mnt/c/Users/sigmu/Desktop/ver1/src/main/misc/infer-out/tmp/javac_args.tmp.9009af'
+*** Output:
+error: file not found: src/test/java/RacyFalseNeg.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+*** Infer needs a working compilation command to run.
+
+[66][   user err] Raised at file "buffer.ml", line 273, characters 18-35
+Called from file "src/in_channel.ml", line 44, characters 4-47
+Called from file "src/in_channel.ml", line 47, characters 6-13
+
