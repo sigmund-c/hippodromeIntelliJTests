@@ -56,3 +56,6 @@ Produces:
 }
 ```
 Note: "prio_files" is automatically set to empty, and "iterations" is automatically set to 5.
+
+
+![image of run configuration options](https://imgur.com/VvAvo6L.png)
