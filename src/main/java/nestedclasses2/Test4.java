@@ -4,35 +4,35 @@ import com.facebook.infer.annotation.*;
                        class Test4 {
   
   
-                           A myA2 = new A(); 
+                           C myC2 = new C(); 
   
                            @ThreadSafe  
                            class Test5{
 
-                           A myA = new A();  
+                           C myC = new C();  
     
-                           A myA1 = new A(); 
+                           C myC1 = new C(); 
     
-                           public void haz(A a) {  
-                               myA1 = a;
+                           public void haz(C c) {  
+                               myC1 = c;
                            }  
     
     
                            protected void haha(int x) {  
-                                myA1.f = x;
+                                myC1.f = x;
                            }  
                         } 
   
   
-                           public void hazT2(A a) { 
-                               myA2 = a;
+                           public void hazT2(C c) { 
+                               myC2 = c;
                            } 
   
   
                            protected void hahaT2(int x) { 
-                              myA2.f = x;
+                              myC2.f = x;
                            } 
                        }  
               
     
-                       class A { int f = 0; int i_myAThread = 1; }    
+                       class C { int f = 0; int i_myCThread = 1; }    
