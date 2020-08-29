@@ -4,51 +4,51 @@ import com.facebook.infer.annotation.*;
                        class Test6 {
   
   
-                           A myA2 = new A(); 
+                           B myB2 = new B(); 
   
                            @ThreadSafe  
                            class Test3{
 
-                           A myA = new A();  
+                           B myB = new B();  
     
-                           A myA1 = new A(); 
+                           B myB1 = new B(); 
     
-                           public void haz(A a) {  
-                               myA1 = a;
+                           public void haz(B b) {  
+                               myB1 = b;
                            }  
     
     
                            protected void haha(int x) {  
-                                myA1.f = x;
+                                myB1.f = x;
                            }
 
                                @ThreadSafe
                                class Test7{
-                                   A myA4 = new A();
+                                   B myB4 = new B();
 
 
-                                   public void haz(A a) {
-                                       myA4 = myA1;
+                                   public void haz(B b) {
+                                       myB4 = myB1;
                                    }
 
 
                                    protected void haha(int x) {
-                                       synchronized (myA) { myA4.f = x; }
+                                       synchronized (myB) { myB4.f = x; }
                                    }
 
                                }
                         } 
   
   
-                           public void hazT2(A a) { 
-                               myA2 = a;
+                           public void hazT2(B b) { 
+                               myB2 = b;
                            } 
   
   
                            protected void hahaT2(int x) { 
-                              myA2.f = x;
+                              myB2.f = x;
                            } 
                        }  
               
     
-                       class A { int f = 0; int i_myAThread = 1; }    
+                       class B { int f = 0; int i_myBThread = 1; }    
