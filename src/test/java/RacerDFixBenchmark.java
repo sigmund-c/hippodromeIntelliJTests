@@ -14,7 +14,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/airline/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -24,7 +24,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/alarmclock/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -34,7 +34,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/buggyprogram/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/consisitency/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -54,7 +54,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/datarace/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -64,7 +64,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/linkedlist/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -74,7 +74,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/mergesort/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -84,7 +84,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/nestedclasses1/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -94,7 +94,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/nestedclasses2/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -104,7 +104,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/nestedclasses3/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -114,7 +114,7 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/pingpong/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 
     @Test
@@ -124,6 +124,6 @@ public class RacerDFixBenchmark {
                 "--config_file=src/main/java/wronglock2/CONFIG.json");
         int returnValue = pr.waitFor(); // RacerDFix returns 0 when no more bugs are detected.
 
-        assertEquals(returnValue, SUCCESS_VALUE);
+        assertEquals(SUCCESS_VALUE, returnValue);
     }
 }
