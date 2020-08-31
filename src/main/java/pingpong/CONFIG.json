@@ -1,7 +1,7 @@
-{"infer":"/Users/andrea/git/infer-clean/infer/infer/bin/infer",
+{"infer":"infer",
   "options":["--racerdfix-only", "--starvation"],
   "json_path": "./infer-out/",
-  "target_options": ["--", "javac", "src/test/resources/java-benchmark/pingpong/BuggedProgram.java"],
+  "target_options": ["--", "javac", "src/main/java/pingpong/BuggedProgram.java"],
   "prio_files":  [],
   "iterations": 5
 }
