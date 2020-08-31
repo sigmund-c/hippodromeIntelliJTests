@@ -1,7 +1,7 @@
 {"infer":"infer",
   "options":["--racerdfix-only", "--starvation"],
   "json_path": "./infer-out/",
-  "target_options": ["--", "javac", "src/main/java/nestedclasses3/Test2.java"],
+  "target_options": ["--", "javac", "src/main/java/nestedclasses3/Test6.java"],
   "prio_files":  [],
   "iterations": 1
 }
