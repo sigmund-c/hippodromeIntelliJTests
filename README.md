@@ -4,7 +4,7 @@ A project ready to be scanned for RacerDFix patches.
 ## Run RacerDFix from IntelliJ
 ### Run Everything and Automatically Apply Patches
 
-In IntelliJ's run configuration options, choose "RacerDFix" and run.
+In IntelliJ's run configuration options, choose "RacerDFixBenchmark" and run.
 
 This will run RacerDFix for all the benchmarks in `src/main/java` and automatically apply the most fitting patches. Original, unpatched files will be stored in the format `<FileName.java.orig>`.
 
