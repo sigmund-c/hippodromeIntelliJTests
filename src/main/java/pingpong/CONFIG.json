@@ -4,5 +4,5 @@
   "target_options": ["--", "javac", "src/main/java/pingpong/BuggedProgram.java",
     "src/main/java/pingpong/BugThread.java", "src/main/java/pingpong/PingPong.java", "src/main/java/pingpong/PP.java"],
   "prio_files":  [],
-  "iterations": 5
+  "iterations": 10
 }

@@ -1,7 +1,9 @@
-{"infer":"infer",
-  "options":["--racerdfix-only", "--starvation"],
+{
+  "infer": "infer",
+  "options": [ "--racerdfix-only", "--starvation" ],
   "json_path": "./infer-out/",
-  "target_options": ["--", "javac", "src/main/java/alarmclock/AlarmClock.java"],
-  "prio_files":  [],
-  "iterations": 8
+  "target_options": [ "--", "javac", "src/main/java/alarmclock/AlarmClock.java" ],
+  "prio_files": [],
+  "iterations": 8,
+  "racerdfix_options": [ "--atomicity=true" ]
 }

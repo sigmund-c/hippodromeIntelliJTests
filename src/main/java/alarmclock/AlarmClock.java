@@ -1,5 +1,5 @@
 package alarmclock;
-
+import com.facebook.infer.annotation.*;
 /**
  * This is a simulation of an Alarm Clock.
  * One thread of kind Clock calls a method tick() every milisecond
@@ -22,6 +22,7 @@ package alarmclock;
  * @author Todd Wallentine &lt;tcw@cis.ksu.edu&gt;
  * @version $Revision: 1.2 $ - $Date: 2004/04/08 14:46:35 $
  */
+@ThreadSafe
 public class AlarmClock {
     public static void main(String[] args) {
         int maxTime = 5;
