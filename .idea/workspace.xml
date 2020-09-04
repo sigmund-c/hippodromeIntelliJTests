@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5e33200-a797-4bf9-abdf-5ff54ca621d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/airline/Bug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airline/Bug.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1h1zFdou2FLY8z4GgawL9u9IIX5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="RacerDFix.Scan All without Automatic Patch">
+    <configuration name="Scan All without Automatic Patch" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn clean package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="airline" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/airline/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="alarmclock" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/alarmclock/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="buggyprogram" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/airline/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="consisitency" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/consisitency/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="datarace" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/datarace/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linkedlist" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/linkedlist/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mergesort" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/mergesort/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nestedclasses1" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses1/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nestedclasses2" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses2/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nestedclasses3" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses3/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pingpong" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/pingpong/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wronglock2" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/wronglock2/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RacerDFixBenchmark" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ver1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RacerDFixBenchmark" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RacerDFixBenchmark" />
+      <item itemvalue="RacerDFix.Scan All without Automatic Patch" />
+      <item itemvalue="RacerDFix.airline" />
+      <item itemvalue="RacerDFix.alarmclock" />
+      <item itemvalue="RacerDFix.buggyprogram" />
+      <item itemvalue="RacerDFix.consisitency" />
+      <item itemvalue="RacerDFix.datarace" />
+      <item itemvalue="RacerDFix.linkedlist" />
+      <item itemvalue="RacerDFix.mergesort" />
+      <item itemvalue="RacerDFix.nestedclasses1" />
+      <item itemvalue="RacerDFix.nestedclasses2" />
+      <item itemvalue="RacerDFix.nestedclasses3" />
+      <item itemvalue="RacerDFix.pingpong" />
+      <item itemvalue="RacerDFix.wronglock2" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5e33200-a797-4bf9-abdf-5ff54ca621d8" name="Default Changelist" comment="" />
+      <created>1599193284811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599193284811</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="524" y="223" key="#RacerDFixBenchmark" timestamp="1599194018241">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="524" y="223" key="#RacerDFixBenchmark/0.0.1920.1080@0.0.1920.1080" timestamp="1599194018241" />
+    <state x="778" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599194523556">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="778" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599194523556" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1599193934659">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599193934659" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1599193934647">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599193934647" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1599193934641">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599193934641" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1599193934653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599193934653" />
+    <state x="632" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1599219622812">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="632" y="386" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599219622812" />
+  </component>
+</project>

@@ -1,7 +1,9 @@
 {"infer":"infer",
   "options":["--racerdfix-only", "--starvation"],
   "json_path": "./infer-out/",
-  "target_options": ["--", "javac", "src/main/java/linkedlist/MyLinkedList.java"],
+  "target_options": ["--", "javac", "src/main/java/linkedlist/MyLinkedList.java",
+    "src/main/java/linkedlist/BugTester.java", "src/main/java/linkedlist/MyLinkedListItr.java",
+    "src/main/java/linkedlist/MyListBuilder.java", "src/main/java/linkedlist/MyListNode.java"],
   "prio_files":  [],
   "iterations": 1
 }
