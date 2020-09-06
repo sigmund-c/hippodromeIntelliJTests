@@ -2,7 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e33200-a797-4bf9-abdf-5ff54ca621d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/airline/Bug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airline/Bug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/airline/Bug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/airline/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/airline/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alarmclock/AlarmClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alarmclock/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Cleanup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Expensive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/FalseOnNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Functional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/IgnoreAllocations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Initializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/IntegritySink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/IntegritySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Lockless.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Mutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/NoAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/NonBlocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/NullsafeStrict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/OkToExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/PerformanceCritical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Present.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/PrivacySink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/PrivacySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/PropagatesNullable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/ReturnsOwnership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressFieldNotInitialized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressFieldNotNullable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressLint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressNullFieldAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressNullMethodCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressParameterNotNullable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressReturnOverAnnotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressViewNullability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SynchronizedCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/ThreadConfined.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/ThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/TrueOnNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Verify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/buggyprogram/BuggyProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/buggyprogram/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/consisitency/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/consisitency/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/CustomerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/ThreadRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/BugTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/MyLinkedListItr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/MyListBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/MyListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mergesort/MSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mergesort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses1/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses1/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses2/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses2/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses3/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses3/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/BugThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/BuggedProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/PP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/PingPong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/TClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/TClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/WrongLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wronglock2/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wronglock2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RacerDFixBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RacerDFixBenchmark.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +96,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="RacerDFix.Scan All without Automatic Patch">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sigmu\Documents\RacerDFixTests\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RacerDFixBenchmark">
     <configuration name="Scan All without Automatic Patch" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
       <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn clean package" />
       <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=CONFIG.json --intellij=true" />
@@ -114,19 +198,6 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RacerDFixBenchmark" />
-      <item itemvalue="RacerDFix.Scan All without Automatic Patch" />
-      <item itemvalue="RacerDFix.airline" />
-      <item itemvalue="RacerDFix.alarmclock" />
-      <item itemvalue="RacerDFix.buggyprogram" />
-      <item itemvalue="RacerDFix.consisitency" />
-      <item itemvalue="RacerDFix.datarace" />
-      <item itemvalue="RacerDFix.linkedlist" />
-      <item itemvalue="RacerDFix.mergesort" />
-      <item itemvalue="RacerDFix.nestedclasses1" />
-      <item itemvalue="RacerDFix.nestedclasses2" />
-      <item itemvalue="RacerDFix.nestedclasses3" />
-      <item itemvalue="RacerDFix.pingpong" />
-      <item itemvalue="RacerDFix.wronglock2" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -143,6 +214,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="553" y="181" key="#Project_Structure" timestamp="1599358316163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1599358316163" />
     <state x="524" y="223" key="#RacerDFixBenchmark" timestamp="1599194018241">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
