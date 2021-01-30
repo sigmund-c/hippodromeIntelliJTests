@@ -32,6 +32,11 @@
       <recent name="C:\Users\sigmu\Documents\RacerDFixTests\src\test\java" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git push" />
+    </option>
+  </component>
   <component name="RunManager" selected="Hippodrome.wronglock2">
     <configuration name="Scan All without Automatic Patch" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
       <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
@@ -176,26 +181,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612012201104" />
-    <state x="47" y="147" key="CommitChangelistDialog2" timestamp="1612012475412">
+    <state x="47" y="147" key="CommitChangelistDialog2" timestamp="1612012589343">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="47" y="147" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612012475412" />
-    <state width="458" height="274" key="GridCell.Tab.0.bottom" timestamp="1612012387994">
+    <state x="47" y="147" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612012589343" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1612012612016">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="458" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612012387994" />
-    <state width="458" height="274" key="GridCell.Tab.0.center" timestamp="1612012387981">
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612012612016" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1612012612010">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="458" height="274" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612012387981" />
-    <state width="458" height="274" key="GridCell.Tab.0.left" timestamp="1612012387976">
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612012612010" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1612012612004">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="458" height="274" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612012387976" />
-    <state width="458" height="274" key="GridCell.Tab.0.right" timestamp="1612012387987">
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612012612004" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1612012612013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="458" height="274" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612012387987" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612012612013" />
     <state x="80" y="286" key="Vcs.Push.Dialog.v2" timestamp="1612012450800">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
