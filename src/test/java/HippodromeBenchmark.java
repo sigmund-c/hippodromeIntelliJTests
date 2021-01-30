@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class RacerDFixBenchmark {
+public class HippodromeBenchmark {
     final int SUCCESS_VALUE = 0;
 
     @Test

@@ -2,82 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e33200-a797-4bf9-abdf-5ff54ca621d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/airline/Bug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/airline/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/airline/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alarmclock/AlarmClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alarmclock/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Cleanup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Expensive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/FalseOnNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Functional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/IgnoreAllocations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Initializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/IntegritySink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/IntegritySource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Lockless.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Mutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/NoAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/NonBlocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/NullsafeStrict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/OkToExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/PerformanceCritical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Present.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/PrivacySink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/PrivacySource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/PropagatesNullable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/ReturnsOwnership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressFieldNotInitialized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressFieldNotNullable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressLint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressNullFieldAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressNullMethodCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressParameterNotNullable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressReturnOverAnnotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SuppressViewNullability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/SynchronizedCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/ThreadConfined.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/ThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/TrueOnNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/annotation/Verify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/buggyprogram/BuggyProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/buggyprogram/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/consisitency/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/consisitency/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/CustomerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datarace/ThreadRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/BugTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/MyLinkedListItr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/MyListBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/MyListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mergesort/MSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mergesort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses1/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses1/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses2/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses2/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses3/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nestedclasses3/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/BugThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/BuggedProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/PP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pingpong/PingPong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/TClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/TClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wrongLock/WrongLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wronglock2/CONFIG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wronglock2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RacerDFixBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RacerDFixBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,89 +31,95 @@
       <recent name="C:\Users\sigmu\Documents\RacerDFixTests\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RacerDFixBenchmark">
-    <configuration name="Scan All without Automatic Patch" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn clean package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=CONFIG.json --intellij=true" />
-      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration name="airline" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/airline/CONFIG.json --intellij=true" />
+  <component name="RunManager" selected="Hippodrome.wronglock2">
+    <configuration name="Scan All without Automatic Patch" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="alarmclock" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/alarmclock/CONFIG.json --intellij=true" />
+    <configuration name="airline" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/airline/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="buggyprogram" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/airline/CONFIG.json --intellij=true" />
+    <configuration name="alarmclock" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/alarmclock/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="consisitency" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/consisitency/CONFIG.json --intellij=true" />
+    <configuration name="buggyprogram" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/airline/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="datarace" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/datarace/CONFIG.json --intellij=true" />
+    <configuration name="consisitency" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/consisitency/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="linkedlist" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/linkedlist/CONFIG.json --intellij=true" />
+    <configuration name="datarace" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/datarace/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="mergesort" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/mergesort/CONFIG.json --intellij=true" />
+    <configuration name="linkedlist" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/linkedlist/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="nestedclasses1" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses1/CONFIG.json --intellij=true" />
+    <configuration name="mergesort" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/mergesort/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="nestedclasses2" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses2/CONFIG.json --intellij=true" />
+    <configuration name="nestedclasses1" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses1/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="nestedclasses3" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses3/CONFIG.json --intellij=true" />
+    <configuration name="nestedclasses2" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses2/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="pingpong" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/pingpong/CONFIG.json --intellij=true" />
+    <configuration name="nestedclasses3" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses3/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="wronglock2" type="InferRunConfiguration" factoryName="RacerDFix configuration factory">
-      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
-      <option name="SIMPLE_INFER-RACERDFIX_LAUNCH_COMMAND" value="java -jar /RacerDFix-1.0-jar-with-dependencies.jar --config_file=src/main/java/wronglock2/CONFIG.json --intellij=true" />
+    <configuration name="pingpong" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/pingpong/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="RacerDFixBenchmark" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="wrongLock" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/wrongLock/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wronglock2" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/wronglock2/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HippodromeBenchmark" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="ver1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RacerDFixBenchmark" />
+      <option name="MAIN_CLASS_NAME" value="HippodromeBenchmark" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -197,7 +128,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RacerDFixBenchmark" />
+      <item itemvalue="Hippodrome.Scan All without Automatic Patch" />
+      <item itemvalue="Hippodrome.airline" />
+      <item itemvalue="Hippodrome.alarmclock" />
+      <item itemvalue="Hippodrome.buggyprogram" />
+      <item itemvalue="Hippodrome.consisitency" />
+      <item itemvalue="Hippodrome.datarace" />
+      <item itemvalue="Hippodrome.linkedlist" />
+      <item itemvalue="Hippodrome.mergesort" />
+      <item itemvalue="Hippodrome.nestedclasses1" />
+      <item itemvalue="Hippodrome.nestedclasses2" />
+      <item itemvalue="Hippodrome.nestedclasses3" />
+      <item itemvalue="Hippodrome.pingpong" />
+      <item itemvalue="Hippodrome.wrongLock" />
+      <item itemvalue="Hippodrome.wronglock2" />
+      <item itemvalue="JUnit.HippodromeBenchmark" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -214,37 +159,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="553" y="181" key="#Project_Structure" timestamp="1599358316163">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="553" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1599358316163" />
-    <state x="524" y="223" key="#RacerDFixBenchmark" timestamp="1599194018241">
+    <state x="0" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612012201104">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="524" y="223" key="#RacerDFixBenchmark/0.0.1920.1080@0.0.1920.1080" timestamp="1599194018241" />
-    <state x="778" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599194523556">
+    <state x="0" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612012201104" />
+    <state width="916" height="274" key="GridCell.Tab.0.bottom" timestamp="1612012317656">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="778" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599194523556" />
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1599193934659">
+    <state width="916" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612012317656" />
+    <state width="916" height="274" key="GridCell.Tab.0.center" timestamp="1612012317649">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599193934659" />
-    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1599193934647">
+    <state width="916" height="274" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612012317649" />
+    <state width="916" height="274" key="GridCell.Tab.0.left" timestamp="1612012317643">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599193934647" />
-    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1599193934641">
+    <state width="916" height="274" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612012317643" />
+    <state width="916" height="274" key="GridCell.Tab.0.right" timestamp="1612012317653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599193934641" />
-    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1599193934653">
+    <state width="916" height="274" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612012317653" />
+    <state x="0" y="773" key="com.intellij.ide.util.TipDialog" timestamp="1612011853537">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599193934653" />
-    <state x="632" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1599219622812">
+    <state x="0" y="773" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612011853537" />
+    <state x="55" y="94" width="849" height="882" key="find.popup" timestamp="1612012247022">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="632" y="386" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599219622812" />
+    <state x="55" y="94" width="849" height="882" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1612012247022" />
   </component>
 </project>
