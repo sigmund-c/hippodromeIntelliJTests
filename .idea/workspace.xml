@@ -11,6 +11,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1h1zFdou2FLY8z4GgawL9u9IIX5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,29 +157,49 @@
       <option name="presentableId" value="Default" />
       <updated>1599193284811</updated>
     </task>
+    <task id="LOCAL-00001" summary="update to Hippodrome">
+      <created>1612012382556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612012382556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update to Hippodrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to Hippodrome" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612012201104">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612012201104" />
-    <state width="916" height="274" key="GridCell.Tab.0.bottom" timestamp="1612012317656">
+    <state x="47" y="147" key="CommitChangelistDialog2" timestamp="1612012382241">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="916" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612012317656" />
-    <state width="916" height="274" key="GridCell.Tab.0.center" timestamp="1612012317649">
+    <state x="47" y="147" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612012382241" />
+    <state width="458" height="274" key="GridCell.Tab.0.bottom" timestamp="1612012387994">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="916" height="274" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612012317649" />
-    <state width="916" height="274" key="GridCell.Tab.0.left" timestamp="1612012317643">
+    <state width="458" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612012387994" />
+    <state width="458" height="274" key="GridCell.Tab.0.center" timestamp="1612012387981">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="916" height="274" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612012317643" />
-    <state width="916" height="274" key="GridCell.Tab.0.right" timestamp="1612012317653">
+    <state width="458" height="274" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612012387981" />
+    <state width="458" height="274" key="GridCell.Tab.0.left" timestamp="1612012387976">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="916" height="274" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612012317653" />
+    <state width="458" height="274" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612012387976" />
+    <state width="458" height="274" key="GridCell.Tab.0.right" timestamp="1612012387987">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="458" height="274" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612012387987" />
+    <state x="80" y="286" key="Vcs.Push.Dialog.v2" timestamp="1612012450800">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="80" y="286" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1612012450800" />
     <state x="0" y="773" key="com.intellij.ide.util.TipDialog" timestamp="1612011853537">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -187,5 +208,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="55" y="94" width="849" height="882" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1612012247022" />
+    <state x="144" y="252" width="672" height="677" key="run.anything.popup" timestamp="1612012388057">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="144" y="252" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1612012388057" />
   </component>
 </project>
