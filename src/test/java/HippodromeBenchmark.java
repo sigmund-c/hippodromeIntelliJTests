@@ -68,16 +68,6 @@ public class HippodromeBenchmark {
     }
 
     @Test
-    public void mergesortBenchmark() throws IOException, InterruptedException {
-        Runtime rt = Runtime.getRuntime();
-        Process pr = rt.exec("java -jar /hippodrome-1.0-jar-with-dependencies.jar " +
-                "--config_file=src/test/java/mergesort/CONFIG.json");
-        int returnValue = pr.waitFor(); // hippodrome returns 0 when no more bugs are detected.
-
-        assertEquals(SUCCESS_VALUE, returnValue);
-    }
-
-    @Test
     public void nestedclasses1Benchmark() throws IOException, InterruptedException {
         Runtime rt = Runtime.getRuntime();
         Process pr = rt.exec("java -jar /hippodrome-1.0-jar-with-dependencies.jar " +
