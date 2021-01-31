@@ -1,4 +1,4 @@
-{"infer": "infer",
+{"infer":"infer",
   "options":["--racerdfix-only", "--starvation"],
   "json_path": "./infer-out/",
   "target_options": ["--", "javac", "src/test/resources/java-benchmark/nio-io-library-simplified/ThreadA.java"],
