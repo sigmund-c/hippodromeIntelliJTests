@@ -58,6 +58,16 @@ public class HippodromeBenchmark {
     }
 
     @Test
+    public void deadlockPaperBenchmark() throws IOException, InterruptedException {
+        Runtime rt = Runtime.getRuntime();
+        Process pr = rt.exec("java -jar /hippodrome-1.0-jar-with-dependencies.jar " +
+                "--config_file=src/test/java/deadlock-paper/CONFIG.json");
+        int returnValue = pr.waitFor(); // hippodrome returns 0 when no more bugs are detected.
+
+        assertEquals(SUCCESS_VALUE, returnValue);
+    }
+
+    @Test
     public void linkedlistBenchmark() throws IOException, InterruptedException {
         Runtime rt = Runtime.getRuntime();
         Process pr = rt.exec("java -jar /hippodrome-1.0-jar-with-dependencies.jar " +
@@ -92,6 +102,16 @@ public class HippodromeBenchmark {
         Runtime rt = Runtime.getRuntime();
         Process pr = rt.exec("java -jar /hippodrome-1.0-jar-with-dependencies.jar " +
                 "--config_file=src/test/java/nestedclasses3/CONFIG.json");
+        int returnValue = pr.waitFor(); // hippodrome returns 0 when no more bugs are detected.
+
+        assertEquals(SUCCESS_VALUE, returnValue);
+    }
+
+    @Test
+    public void nioIoLibrarySimplified() throws IOException, InterruptedException {
+        Runtime rt = Runtime.getRuntime();
+        Process pr = rt.exec("java -jar /hippodrome-1.0-jar-with-dependencies.jar " +
+                "--config_file=src/test/java/nio-io-library-simplified/CONFIG.json");
         int returnValue = pr.waitFor(); // hippodrome returns 0 when no more bugs are detected.
 
         assertEquals(SUCCESS_VALUE, returnValue);

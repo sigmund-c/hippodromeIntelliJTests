@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5e33200-a797-4bf9-abdf-5ff54ca621d8" name="Default Changelist" comment="">
+    <list default="true" id="f5e33200-a797-4bf9-abdf-5ff54ca621d8" name="Default Changelist" comment="add 2 more tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/deadlock-paper/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/deadlock-paper/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nio-io-library-simplified/CONFIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nio-io-library-simplified/ThreadA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HippodromeBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HippodromeBenchmark.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,10 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sigmu\IdeaProjects\hippodrometests\src\test\java" />
+      <recent name="C:\Users\sigmu\IdeaProjects\hippodrometests\src\main\java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sigmu\Documents\RacerDFixTests\src\test\java" />
     </key>
@@ -37,7 +46,7 @@
       <command value="git push" />
     </option>
   </component>
-  <component name="RunManager" selected="Hippodrome.wronglock2">
+  <component name="RunManager" selected="JUnit.HippodromeBenchmark">
     <configuration name="Scan All without Automatic Patch" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
       <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
       <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=CONFIG.json --intellij=true" />
@@ -74,6 +83,12 @@
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="deadlock-paper" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/deadlock-paper/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="linkedlist" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
       <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
       <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/linkedlist/CONFIG.json --intellij=true" />
@@ -101,6 +116,12 @@
     <configuration name="nestedclasses3" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
       <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --hippodrome-only -- mvn package" />
       <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/nestedclasses3/CONFIG.json --intellij=true" />
+      <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nio-io-library-simplified" type="InferRunConfiguration" factoryName="Hippodrome configuration factory">
+      <option name="SIMPLE_INFER-INFER_LAUNCH_COMMAND" value="infer run --racerdfix-only -- mvn package" />
+      <option name="SIMPLE_INFER-HIPPODROME_LAUNCH_COMMAND" value="java -jar /hippodrome-1.0-jar-with-dependencies.jar --config_file=src/main/java/nio-io-library-simplified/CONFIG.json --intellij=true" />
       <option name="SIMPLE_INFER-GENERATE_NEW_CONFIG" value="false" />
       <method v="2" />
     </configuration>
@@ -140,16 +161,30 @@
       <item itemvalue="Hippodrome.buggyprogram" />
       <item itemvalue="Hippodrome.consisitency" />
       <item itemvalue="Hippodrome.datarace" />
+      <item itemvalue="Hippodrome.deadlock-paper" />
       <item itemvalue="Hippodrome.linkedlist" />
       <item itemvalue="Hippodrome.mergesort" />
       <item itemvalue="Hippodrome.nestedclasses1" />
       <item itemvalue="Hippodrome.nestedclasses2" />
       <item itemvalue="Hippodrome.nestedclasses3" />
+      <item itemvalue="Hippodrome.nio-io-library-simplified" />
       <item itemvalue="Hippodrome.pingpong" />
       <item itemvalue="Hippodrome.wrongLock" />
       <item itemvalue="Hippodrome.wronglock2" />
       <item itemvalue="JUnit.HippodromeBenchmark" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -174,16 +209,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update to Hippodrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to Hippodrome" />
+    <MESSAGE value="add 2 more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2 more tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612012201104">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="0" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612090676996">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="0" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612090676996" />
     <state x="0" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612012201104" />
-    <state x="47" y="147" key="CommitChangelistDialog2" timestamp="1612012589343">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="47" y="142" key="CommitChangelistDialog2" timestamp="1612090727504">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="47" y="142" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612090727504" />
     <state x="47" y="147" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612012589343" />
     <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1612012612016">
       <screen x="0" y="0" width="1920" height="1080" />
