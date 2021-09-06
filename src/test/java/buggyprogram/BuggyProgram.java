@@ -46,8 +46,7 @@ package buggyprogram;
 
 // ==========================   Java Imported Files   ==========================
 
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Random;
 
 // ============================   Class definition   ===========================

@@ -1,7 +1,6 @@
 package wrongLock;
 
-import annotation.ThreadSafe;
-
+import com.facebook.infer.annotation.*;
 /**
  * @author Xuan
  * Created on 2005-1-18

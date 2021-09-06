@@ -1,15 +1,14 @@
  
    
-  package pingpong;
-
-  import annotation.ThreadSafe;
-
-  import java.io.DataOutputStream;
-  import java.io.IOException;
-  import java.util.ArrayList;
-  import java.util.Iterator;
-
-
+  package pingpong;  
+    
+  import java.io.DataOutputStream;  
+  import java.io.IOException;  
+  import java.util.ArrayList;  
+  import java.util.Iterator;  
+  import com.facebook.infer.annotation.*;  
+    
+    
   /**  
    *@author Golan  
    * 17/10/2003  
@@ -17,7 +16,7 @@
    *@version 1.0  
    */  
     
-  @ThreadSafe
+  @ThreadSafe  
   public class BuggedProgram {
     
     

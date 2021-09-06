@@ -1,10 +1,11 @@
 package mergesort;
 
-import annotation.ThreadSafe;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+import com.facebook.infer.annotation.*;
 
 /**
  * <p>Title: <MultiThreading Merge Sort/p>

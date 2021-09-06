@@ -1,8 +1,7 @@
 package airline;
 
-import annotation.ThreadSafe;
-
 import java.io.FileOutputStream;
+import com.facebook.infer.annotation.*;
 
 /**
  * Created by IntelliJ IDEA.

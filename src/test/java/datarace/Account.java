@@ -1,6 +1,6 @@
 package datarace;
 
-import annotation.ThreadSafe;
+import com.facebook.infer.annotation.*;
 
 @ThreadSafe
 public class Account {

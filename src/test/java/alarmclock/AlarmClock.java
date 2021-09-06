@@ -1,6 +1,5 @@
 package alarmclock;
-import annotation.ThreadSafe;
-
+import com.facebook.infer.annotation.*;
 /**
  * This is a simulation of an Alarm Clock.
  * One thread of kind Clock calls a method tick() every milisecond

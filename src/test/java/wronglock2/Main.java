@@ -1,6 +1,6 @@
 package wronglock2;
 
-import annotation.ThreadSafe;
+import com.facebook.infer.annotation.*;
 
 @ThreadSafe
 public class Main implements Runnable {
